@@ -1,47 +1,30 @@
-.top-division {
-  background-color: #fcf8e8;
-  position: relative;
-  padding-top: 100px;
-}
-
-.middle-division {
-  background-color: red;
-  height: 200px;
-  width: 200px;
-  margin-left: 260px;
-  border-style: solid;
-  border-width: 20px
-}
-
-.bottom-division {
-  background-color: blue;
-  height: 200px;
-  width: 200px;
-  margin-left: 500px;
-  border-style: solid;
-  border-width: 10px;
-
-}
-
 
 h1 {
   font-family: 'Great Vibes', cursive;
-  margin: 0;
-  font-size: 400%;
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
+  font-size: 562.5%;
 }
 
 h2 {
   font-family: 'Fira Sans', sans-serif;
+  font-size: 250%;
+  font-weight: normal;
+  color: #66BFBF;
 
 }
 
 h3 {
   font-family: 'Fira Sans', sans-serif;
-
+  color: #3e9494;
 }
 
 div {
   margin: 0;
+}
+
+p {
+  color: #40514E;
 }
 
 body {
@@ -50,9 +33,28 @@ body {
   text-align: center;
 }
 
+hr {
+  border-top: 10px dotted #afbaba;
+  width: 5%;
+
+}
+
+.top-division {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+}
+
 .top-cloud {
   position: absolute;
-  top: 50px;
+  top: 35px;
   right: 300px;
 }
 
@@ -60,10 +62,97 @@ body {
 .bottom-cloud {
   position: absolute;
   left: 300px;
-  top: 200px;
+  top: 420px;
 }
 
 .mountain {
   position: relative;
   top: 0;
+}
+
+.profile-image {
+  margin: 3%;
+  width: 20%;
+}
+
+.mobile-dev-row {
+  width: 50%;
+  margin: 0  auto 100px auto;
+  text-align: left;
+  line-height: 2;
+  font-size: 20px;
+}
+
+.web-dev-row {
+  width: 50%;
+  margin: 0  auto 100px auto;
+  text-align: left;
+  line-height: 2;
+  font-size: 20px;
+}
+
+.d-and-d-row {
+  width: 50%;
+  margin: 0  auto 100px auto;
+  text-align: left;
+  line-height: 2;
+  font-size: 20px;
+}
+
+
+/* Gif styling */
+
+.d-and-d-gif {
+  width: 45%;
+  float: left;
+  margin-right: 10px;
+}
+
+.mobile-dev-gif {
+  width: 45%;
+  float: left;
+  margin-right: 10px;
+}
+
+.web-dev-gif {
+  width: 45%;
+  float: right;
+  margin-right: 10px;
+}
+
+
+.mobile-dev-title {
+  text-align: center;
+  padding: 70px 0 70px;
+}
+
+.web-dev-title {
+  text-align: center;
+  padding: 70px 0 70px 0;
+}
+
+.d-and-d-title {
+  text-align: center;
+  padding: 90px 0 50px 0;
+}
+
+.btn {
+  background-image: linear-gradient(#66BFBF, #3d8787);
+  padding: 5px;
+  border-radius: 2px;
+  text-decoration: none;
+  color: white;
+}
+
+.bottom-container {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.footer-link{
+  text-decoration: none;
+  color: #11999E;
+  padding: 2px;
+  margin: 4px;
+  font-weight: bold;
 }
